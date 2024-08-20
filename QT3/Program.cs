@@ -16,11 +16,11 @@ class Program
 {
     static void Main()
     {   
-        int vidaIni, dano, bonus, soma, mult, final;
-        double modificadorEq, modificadorHa;
+        int vida, dano, bonus;
+        double modificadorEq, modificadorHa, soma;
 
         Console.WriteLine("Vida Inicial:");
-        int.TryParse(Console.ReadLine(), out vidaIni);
+        int.TryParse(Console.ReadLine(), out vida);
 
         Console.WriteLine("Dano Recebido:");
          int.TryParse(Console.ReadLine(), out dano);
@@ -34,11 +34,10 @@ class Program
         Console.WriteLine("Modificador Habilidades:");
         double.TryParse(Console.ReadLine(), out modificadorHa);
 
-        soma = vidaIni - dano + bonus;
-        mult = modificadorEq * soma 
-        
+        soma = ((vida - dano * modificadorEq) + bonus * modificadorHa);
 
-        final = mult + soma
+       Console.WriteLine($"A vida restante: {soma}");
+        
         Console.ReadLine();
     }
 }
