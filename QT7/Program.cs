@@ -34,7 +34,7 @@ int.TryParse(Console.ReadLine(), out constante);
            Console.WriteLine("Multiplicador Equipamentos:");
            double.TryParse(Console.ReadLine(), out mult1);
 
-div = (xp / constante) + 1;
+   div = (xp / constante) + 1;
 Console.WriteLine($"Nível do Jogador:{div}");
         Console.ReadLine();
     }

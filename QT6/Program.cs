@@ -15,28 +15,26 @@ using System;
 class Program
 {
     static void Main()
-    {   
-        int moedas,taxa;
+    {
+        int moedas, taxa;
         double bonusEve, bonusHa, conver;
-    
+
         Console.WriteLine("Moedas de Ouro:");
         int.TryParse(Console.ReadLine(), out moedas);
 
         Console.WriteLine("Taxa de Conversão:");
-int.TryParse(Console.ReadLine(), out taxa);
-
-
+        int.TryParse(Console.ReadLine(), out taxa);
         Console.WriteLine("Bônus de Evento:");
-double.TryParse(Console.ReadLine(), out bonusEve);
+        double.TryParse(Console.ReadLine(), out bonusEve);
 
 
         Console.WriteLine("Bônus de Habilidade:");
         double.TryParse(Console.ReadLine(), out bonusHa);
 
 
-    conver = ((moedas/taxa) * bonusEve) *bonusHa;
+        conver = ((moedas / taxa) * bonusEve) * bonusHa;
 
-        Console.WriteLine($"Cristais obtidos:{conver}");
+        Console.WriteLine("Cristais obtidos:" + Math.Floor(conver));
         Console.ReadLine();
     }
 }
