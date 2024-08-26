@@ -13,3 +13,8 @@ C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista 
 C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\obj\Debug\net8.0\QT10.pdb
 C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\obj\Debug\net8.0\QT10.genruntimeconfig.cache
 C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\obj\Debug\net8.0\ref\QT10.dll
+C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\build\QT10.exe
+C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\build\QT10.deps.json
+C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\build\QT10.runtimeconfig.json
+C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\build\QT10.dll
+C:\Users\j02\Documents\João Lucas Saraiva-2b\Lógica de Programação\C#\Lista de atividade 1\QT10\build\QT10.pdb
